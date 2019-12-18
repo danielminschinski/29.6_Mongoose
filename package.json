@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/danielminschinski/29.6_Mongoose#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mongoose": "^5.8.1"
   }
 }
