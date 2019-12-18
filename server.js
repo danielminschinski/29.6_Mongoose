@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://dbUser:dbUserPassword@cluster0-fefl4.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://blackmin:<michnik1990>@cluster0-coujl.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true
 }).catch(error => handleError(error));
 
